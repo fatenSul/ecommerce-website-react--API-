@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
+.products {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.image-wrapper img {
+    width: 100px;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}

@@ -1,0 +1,159 @@
+/* Home.css */
+
+/* General styling */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.lineWord{
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: crimson;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    /* Add margin between cards */
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+    line-height: 1.5;
+}
+
+.container p:first-letter {
+    font-size: 180%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Slideshow styling */
+.slideshow-container {
+    padding-top: 20px;
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+.swapimage {
+    padding: 40px;
+    width: 90%;
+    height: 450px;
+    /* Adjust the width of the images */
+    border-radius: 8px;
+    /* Add border radius for a rounded look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slideshow-container button {
+    cursor: pointer;
+    top: 35%;
+    width: 50px;
+    /* Set the width of the arrow buttons */
+    height: 50px;
+    /* Set the height of the arrow buttons */
+    padding: 5px;
+    margin-top: -10px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: background-color 0.3s;
+    background-color: rgba(146, 57, 57, 0.578);
+    /* Background color of the arrow buttons */
+    border: none;
+    border-radius: 50%;
+    /* Make the buttons round */
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    /* Adjust the width of the images */
+    border-radius: 8px;
+    /* Add border radius for a rounded look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+}
+
+
+
+
+
+button:hover,
+.goToNextImage:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Hover background color */
+}
+
+/* Categories styling */
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+    justify-content: center;
+    gap: 20px;
+    /* Add some space between categories */
+    padding: 20px;
+    /* Add padding around the categories */
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    /* Set a fixed width for each category */
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.category h3 {
+    margin-bottom: 10px;
+    /* Add space between category name and image */
+}
+
+.category a {
+    text-align: center;
+}
